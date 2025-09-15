@@ -1,4 +1,48 @@
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: medium;
+* {
+    font-family: Roboto, sans-serif;
 }
+
+body {
+    background-image: linear-gradient(to bottom, #1f2937 20%, #1f2937 48%,
+    white 40%, white 60% );
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo {
+    color: white;
+    font-weight: 900;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+}
+
+.links {
+    gap: 20px;
+    font-size: 14px;
+
+}
+
+
