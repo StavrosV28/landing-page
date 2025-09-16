@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, #1f2937 20%, #1f2937 48%,
+    background-image: linear-gradient(to bottom, #1f2937 20%, #1f2937 60%,
     white 40%, white 60% );
     min-height: 100vh;
     margin: 0;
@@ -85,6 +85,16 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 0px 40px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    width: 90px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
 }
 
 
