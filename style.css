@@ -3,10 +3,16 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, #1f2937 20%, #1f2937 60%,
+    background-image: linear-gradient(to bottom, #1f2937 20%, #1f2937 50%,
     white 40%, white 60% );
     min-height: 100vh;
     margin: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 32px;
 }
 
 h1 {
@@ -35,11 +41,11 @@ ul {
     font-weight: 900;
 }
 
-.header {
+.header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 30px;
+    padding: 16px 0;
 }
 
 .links {
@@ -52,13 +58,13 @@ ul {
     display: flex;
 }
 
-.title-test {
+.title-test .container {
     display: flex;
     color: white;
     align-items: center;
     justify-content: space-between;
     gap: 48px;
-    padding: 60px 30px;
+    padding: 64px 0;
     max-width: 1100px;
     margin: 0 auto;
 }
